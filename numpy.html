@@ -1,0 +1,316 @@
+<html><body>
+<h3>Variant / Benchmark:</h3>
+<ul>
+<li><a href='#numpy_bench_app.LaplaceInplace.time_it'>numpy_bench_app.LaplaceInplace.time_it</a></li>
+<li><a href='#numpy_bench_app.MaxesOfDots.time_it'>numpy_bench_app.MaxesOfDots.time_it</a></li>
+<li><a href='#numpy_bench_core.Core.time_arange_100'>numpy_bench_core.Core.time_arange_100</a></li>
+<li><a href='#numpy_bench_core.Core.time_array_1'>numpy_bench_core.Core.time_array_1</a></li>
+<li><a href='#numpy_bench_core.Core.time_array_empty'>numpy_bench_core.Core.time_array_empty</a></li>
+<li><a href='#numpy_bench_core.Core.time_array_l'>numpy_bench_core.Core.time_array_l</a></li>
+<li><a href='#numpy_bench_core.Core.time_array_l1'>numpy_bench_core.Core.time_array_l1</a></li>
+<li><a href='#numpy_bench_core.Core.time_array_l100'>numpy_bench_core.Core.time_array_l100</a></li>
+<li><a href='#numpy_bench_core.Core.time_diag_l100'>numpy_bench_core.Core.time_diag_l100</a></li>
+<li><a href='#numpy_bench_core.Core.time_diagflat_l100'>numpy_bench_core.Core.time_diagflat_l100</a></li>
+<li><a href='#numpy_bench_core.Core.time_diagflat_l50_l50'>numpy_bench_core.Core.time_diagflat_l50_l50</a></li>
+<li><a href='#numpy_bench_core.Core.time_dstack_l'>numpy_bench_core.Core.time_dstack_l</a></li>
+<li><a href='#numpy_bench_core.Core.time_empty_100'>numpy_bench_core.Core.time_empty_100</a></li>
+<li><a href='#numpy_bench_core.Core.time_eye_100'>numpy_bench_core.Core.time_eye_100</a></li>
+<li><a href='#numpy_bench_core.Core.time_eye_3000'>numpy_bench_core.Core.time_eye_3000</a></li>
+<li><a href='#numpy_bench_core.Core.time_hstack_l'>numpy_bench_core.Core.time_hstack_l</a></li>
+<li><a href='#numpy_bench_core.Core.time_identity_100'>numpy_bench_core.Core.time_identity_100</a></li>
+<li><a href='#numpy_bench_core.Core.time_identity_3000'>numpy_bench_core.Core.time_identity_3000</a></li>
+<li><a href='#numpy_bench_core.Core.time_ones_100'>numpy_bench_core.Core.time_ones_100</a></li>
+<li><a href='#numpy_bench_core.Core.time_tril_l10x10'>numpy_bench_core.Core.time_tril_l10x10</a></li>
+<li><a href='#numpy_bench_core.Core.time_triu_l10x10'>numpy_bench_core.Core.time_triu_l10x10</a></li>
+<li><a href='#numpy_bench_core.Core.time_vstack_l'>numpy_bench_core.Core.time_vstack_l</a></li>
+<li><a href='#numpy_bench_core.Core.time_zeros_100'>numpy_bench_core.Core.time_zeros_100</a></li>
+<li><a href='#numpy_bench_core.CorrConv.time_convolve'>numpy_bench_core.CorrConv.time_convolve</a></li>
+<li><a href='#numpy_bench_core.CorrConv.time_correlate'>numpy_bench_core.CorrConv.time_correlate</a></li>
+<li><a href='#numpy_bench_core.CountNonzero.time_count_nonzero'>numpy_bench_core.CountNonzero.time_count_nonzero</a></li>
+<li><a href='#numpy_bench_core.CountNonzero.time_count_nonzero_axis'>numpy_bench_core.CountNonzero.time_count_nonzero_axis</a></li>
+<li><a href='#numpy_bench_core.CountNonzero.time_count_nonzero_multi_axis'>numpy_bench_core.CountNonzero.time_count_nonzero_multi_axis</a></li>
+<li><a href='#numpy_bench_core.Indices.time_indices'>numpy_bench_core.Indices.time_indices</a></li>
+<li><a href='#numpy_bench_core.MA.time_masked_array'>numpy_bench_core.MA.time_masked_array</a></li>
+<li><a href='#numpy_bench_core.MA.time_masked_array_l100'>numpy_bench_core.MA.time_masked_array_l100</a></li>
+<li><a href='#numpy_bench_core.MA.time_masked_array_l100_t100'>numpy_bench_core.MA.time_masked_array_l100_t100</a></li>
+<li><a href='#numpy_bench_core.PackBits.time_packbits'>numpy_bench_core.PackBits.time_packbits</a></li>
+<li><a href='#numpy_bench_core.PackBits.time_packbits_axis0'>numpy_bench_core.PackBits.time_packbits_axis0</a></li>
+<li><a href='#numpy_bench_core.PackBits.time_packbits_axis1'>numpy_bench_core.PackBits.time_packbits_axis1</a></li>
+<li><a href='#numpy_bench_core.Temporaries.time_large'>numpy_bench_core.Temporaries.time_large</a></li>
+<li><a href='#numpy_bench_core.Temporaries.time_large2'>numpy_bench_core.Temporaries.time_large2</a></li>
+<li><a href='#numpy_bench_core.Temporaries.time_mid'>numpy_bench_core.Temporaries.time_mid</a></li>
+<li><a href='#numpy_bench_core.Temporaries.time_mid2'>numpy_bench_core.Temporaries.time_mid2</a></li>
+<li><a href='#numpy_bench_core.UnpackBits.time_unpackbits'>numpy_bench_core.UnpackBits.time_unpackbits</a></li>
+<li><a href='#numpy_bench_core.UnpackBits.time_unpackbits_axis0'>numpy_bench_core.UnpackBits.time_unpackbits_axis0</a></li>
+<li><a href='#numpy_bench_core.UnpackBits.time_unpackbits_axis1'>numpy_bench_core.UnpackBits.time_unpackbits_axis1</a></li>
+<li><a href='#numpy_bench_function_base.Bincount.time_bincount'>numpy_bench_function_base.Bincount.time_bincount</a></li>
+<li><a href='#numpy_bench_function_base.Bincount.time_weights'>numpy_bench_function_base.Bincount.time_weights</a></li>
+<li><a href='#numpy_bench_function_base.Histogram1D.time_fine_binning'>numpy_bench_function_base.Histogram1D.time_fine_binning</a></li>
+<li><a href='#numpy_bench_function_base.Histogram1D.time_full_coverage'>numpy_bench_function_base.Histogram1D.time_full_coverage</a></li>
+<li><a href='#numpy_bench_function_base.Histogram1D.time_small_coverage'>numpy_bench_function_base.Histogram1D.time_small_coverage</a></li>
+<li><a href='#numpy_bench_function_base.Histogram2D.time_fine_binning'>numpy_bench_function_base.Histogram2D.time_fine_binning</a></li>
+<li><a href='#numpy_bench_function_base.Histogram2D.time_full_coverage'>numpy_bench_function_base.Histogram2D.time_full_coverage</a></li>
+<li><a href='#numpy_bench_function_base.Histogram2D.time_small_coverage'>numpy_bench_function_base.Histogram2D.time_small_coverage</a></li>
+<li><a href='#numpy_bench_function_base.Median.time_even'>numpy_bench_function_base.Median.time_even</a></li>
+<li><a href='#numpy_bench_function_base.Median.time_even_inplace'>numpy_bench_function_base.Median.time_even_inplace</a></li>
+<li><a href='#numpy_bench_function_base.Median.time_even_small'>numpy_bench_function_base.Median.time_even_small</a></li>
+<li><a href='#numpy_bench_function_base.Median.time_odd'>numpy_bench_function_base.Median.time_odd</a></li>
+<li><a href='#numpy_bench_function_base.Median.time_odd_inplace'>numpy_bench_function_base.Median.time_odd_inplace</a></li>
+<li><a href='#numpy_bench_function_base.Median.time_odd_small'>numpy_bench_function_base.Median.time_odd_small</a></li>
+<li><a href='#numpy_bench_function_base.Percentile.time_percentile'>numpy_bench_function_base.Percentile.time_percentile</a></li>
+<li><a href='#numpy_bench_function_base.Percentile.time_quartile'>numpy_bench_function_base.Percentile.time_quartile</a></li>
+<li><a href='#numpy_bench_function_base.Select.time_select'>numpy_bench_function_base.Select.time_select</a></li>
+<li><a href='#numpy_bench_function_base.Select.time_select_larger'>numpy_bench_function_base.Select.time_select_larger</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_argsort'>numpy_bench_function_base.Sort.time_argsort</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_argsort_random'>numpy_bench_function_base.Sort.time_argsort_random</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_sort'>numpy_bench_function_base.Sort.time_sort</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_sort_equal'>numpy_bench_function_base.Sort.time_sort_equal</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_sort_inplace'>numpy_bench_function_base.Sort.time_sort_inplace</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_sort_many_equal'>numpy_bench_function_base.Sort.time_sort_many_equal</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_sort_random'>numpy_bench_function_base.Sort.time_sort_random</a></li>
+<li><a href='#numpy_bench_function_base.Sort.time_sort_worst'>numpy_bench_function_base.Sort.time_sort_worst</a></li>
+<li><a href='#numpy_bench_function_base.Where.time_1'>numpy_bench_function_base.Where.time_1</a></li>
+<li><a href='#numpy_bench_function_base.Where.time_2'>numpy_bench_function_base.Where.time_2</a></li>
+<li><a href='#numpy_bench_function_base.Where.time_2_broadcast'>numpy_bench_function_base.Where.time_2_broadcast</a></li>
+<li><a href='#numpy_bench_indexing.Indexing.time_op'>numpy_bench_indexing.Indexing.time_op</a></li>
+<li><a href='#numpy_bench_indexing.IndexingSeparate.time_mmap_fancy_indexing'>numpy_bench_indexing.IndexingSeparate.time_mmap_fancy_indexing</a></li>
+<li><a href='#numpy_bench_indexing.IndexingSeparate.time_mmap_slicing'>numpy_bench_indexing.IndexingSeparate.time_mmap_slicing</a></li>
+<li><a href='#numpy_bench_indexing.IndexingStructured0D.time_array_all'>numpy_bench_indexing.IndexingStructured0D.time_array_all</a></li>
+<li><a href='#numpy_bench_indexing.IndexingStructured0D.time_array_slice'>numpy_bench_indexing.IndexingStructured0D.time_array_slice</a></li>
+<li><a href='#numpy_bench_indexing.IndexingStructured0D.time_scalar_all'>numpy_bench_indexing.IndexingStructured0D.time_scalar_all</a></li>
+<li><a href='#numpy_bench_indexing.IndexingStructured0D.time_scalar_slice'>numpy_bench_indexing.IndexingStructured0D.time_scalar_slice</a></li>
+<li><a href='#numpy_bench_io.Copy.time_cont_assign'>numpy_bench_io.Copy.time_cont_assign</a></li>
+<li><a href='#numpy_bench_io.Copy.time_memcpy'>numpy_bench_io.Copy.time_memcpy</a></li>
+<li><a href='#numpy_bench_io.Copy.time_memcpy_large_out_of_place'>numpy_bench_io.Copy.time_memcpy_large_out_of_place</a></li>
+<li><a href='#numpy_bench_io.Copy.time_strided_assign'>numpy_bench_io.Copy.time_strided_assign</a></li>
+<li><a href='#numpy_bench_io.Copy.time_strided_copy'>numpy_bench_io.Copy.time_strided_copy</a></li>
+<li><a href='#numpy_bench_io.CopyTo.time_copyto'>numpy_bench_io.CopyTo.time_copyto</a></li>
+<li><a href='#numpy_bench_io.CopyTo.time_copyto_8_dense'>numpy_bench_io.CopyTo.time_copyto_8_dense</a></li>
+<li><a href='#numpy_bench_io.CopyTo.time_copyto_8_sparse'>numpy_bench_io.CopyTo.time_copyto_8_sparse</a></li>
+<li><a href='#numpy_bench_io.CopyTo.time_copyto_dense'>numpy_bench_io.CopyTo.time_copyto_dense</a></li>
+<li><a href='#numpy_bench_io.CopyTo.time_copyto_sparse'>numpy_bench_io.CopyTo.time_copyto_sparse</a></li>
+<li><a href='#numpy_bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv'>numpy_bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv</a></li>
+<li><a href='#numpy_bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime'>numpy_bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime</a></li>
+<li><a href='#numpy_bench_io.LoadtxtCSVSkipRows.time_skiprows_csv'>numpy_bench_io.LoadtxtCSVSkipRows.time_skiprows_csv</a></li>
+<li><a href='#numpy_bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype'>numpy_bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype</a></li>
+<li><a href='#numpy_bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv'>numpy_bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv</a></li>
+<li><a href='#numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64'>numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64</a></li>
+<li><a href='#numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values'>numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values</a></li>
+<li><a href='#numpy_bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv'>numpy_bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv</a></li>
+<li><a href='#numpy_bench_io.Savez.time_vb_savez_squares'>numpy_bench_io.Savez.time_vb_savez_squares</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanargmax'>numpy_bench_lib.Nan.time_nanargmax</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanargmin'>numpy_bench_lib.Nan.time_nanargmin</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nancumprod'>numpy_bench_lib.Nan.time_nancumprod</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nancumsum'>numpy_bench_lib.Nan.time_nancumsum</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanmax'>numpy_bench_lib.Nan.time_nanmax</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanmean'>numpy_bench_lib.Nan.time_nanmean</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanmedian'>numpy_bench_lib.Nan.time_nanmedian</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanmin'>numpy_bench_lib.Nan.time_nanmin</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanpercentile'>numpy_bench_lib.Nan.time_nanpercentile</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanprod'>numpy_bench_lib.Nan.time_nanprod</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanquantile'>numpy_bench_lib.Nan.time_nanquantile</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanstd'>numpy_bench_lib.Nan.time_nanstd</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nansum'>numpy_bench_lib.Nan.time_nansum</a></li>
+<li><a href='#numpy_bench_lib.Nan.time_nanvar'>numpy_bench_lib.Nan.time_nanvar</a></li>
+<li><a href='#numpy_bench_lib.Pad.time_pad'>numpy_bench_lib.Pad.time_pad</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_dot_a_b'>numpy_bench_linalg.Eindot.time_dot_a_b</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_dot_d_dot_b_c'>numpy_bench_linalg.Eindot.time_dot_d_dot_b_c</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_dot_trans_a_at'>numpy_bench_linalg.Eindot.time_dot_trans_a_at</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_dot_trans_a_atc'>numpy_bench_linalg.Eindot.time_dot_trans_a_atc</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_dot_trans_at_a'>numpy_bench_linalg.Eindot.time_dot_trans_at_a</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_dot_trans_atc_a'>numpy_bench_linalg.Eindot.time_dot_trans_atc_a</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_einsum_i_ij_j'>numpy_bench_linalg.Eindot.time_einsum_i_ij_j</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_einsum_ij_jk_a_b'>numpy_bench_linalg.Eindot.time_einsum_ij_jk_a_b</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_einsum_ijk_jil_kl'>numpy_bench_linalg.Eindot.time_einsum_ijk_jil_kl</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_inner_trans_a_a'>numpy_bench_linalg.Eindot.time_inner_trans_a_a</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_inner_trans_a_ac'>numpy_bench_linalg.Eindot.time_inner_trans_a_ac</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_matmul_a_b'>numpy_bench_linalg.Eindot.time_matmul_a_b</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_matmul_d_matmul_b_c'>numpy_bench_linalg.Eindot.time_matmul_d_matmul_b_c</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_matmul_trans_a_at'>numpy_bench_linalg.Eindot.time_matmul_trans_a_at</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_matmul_trans_a_atc'>numpy_bench_linalg.Eindot.time_matmul_trans_a_atc</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_matmul_trans_at_a'>numpy_bench_linalg.Eindot.time_matmul_trans_at_a</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_matmul_trans_atc_a'>numpy_bench_linalg.Eindot.time_matmul_trans_atc_a</a></li>
+<li><a href='#numpy_bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1'>numpy_bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1</a></li>
+<li><a href='#numpy_bench_linalg.Linalg.time_op'>numpy_bench_linalg.Linalg.time_op</a></li>
+<li><a href='#numpy_bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64'>numpy_bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64</a></li>
+<li><a href='#numpy_bench_ma.Concatenate.time_it'>numpy_bench_ma.Concatenate.time_it</a></li>
+<li><a href='#numpy_bench_ma.Indexing.time_0d'>numpy_bench_ma.Indexing.time_0d</a></li>
+<li><a href='#numpy_bench_ma.Indexing.time_1d'>numpy_bench_ma.Indexing.time_1d</a></li>
+<li><a href='#numpy_bench_ma.Indexing.time_scalar'>numpy_bench_ma.Indexing.time_scalar</a></li>
+<li><a href='#numpy_bench_ma.MA.time_masked_array'>numpy_bench_ma.MA.time_masked_array</a></li>
+<li><a href='#numpy_bench_ma.MA.time_masked_array_l100'>numpy_bench_ma.MA.time_masked_array_l100</a></li>
+<li><a href='#numpy_bench_ma.MA.time_masked_array_l100_t100'>numpy_bench_ma.MA.time_masked_array_l100_t100</a></li>
+<li><a href='#numpy_bench_ma.UFunc.time_1d'>numpy_bench_ma.UFunc.time_1d</a></li>
+<li><a href='#numpy_bench_ma.UFunc.time_2d'>numpy_bench_ma.UFunc.time_2d</a></li>
+<li><a href='#numpy_bench_ma.UFunc.time_scalar'>numpy_bench_ma.UFunc.time_scalar</a></li>
+<li><a href='#numpy_bench_ma.UFunc.time_scalar_1d'>numpy_bench_ma.UFunc.time_scalar_1d</a></li>
+<li><a href='#numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_duck'>numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_duck</a></li>
+<li><a href='#numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy'>numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy</a></li>
+<li><a href='#numpy_bench_overrides.ArrayFunction.time_mock_concatenate_duck'>numpy_bench_overrides.ArrayFunction.time_mock_concatenate_duck</a></li>
+<li><a href='#numpy_bench_overrides.ArrayFunction.time_mock_concatenate_many'>numpy_bench_overrides.ArrayFunction.time_mock_concatenate_many</a></li>
+<li><a href='#numpy_bench_overrides.ArrayFunction.time_mock_concatenate_mixed'>numpy_bench_overrides.ArrayFunction.time_mock_concatenate_mixed</a></li>
+<li><a href='#numpy_bench_overrides.ArrayFunction.time_mock_concatenate_numpy'>numpy_bench_overrides.ArrayFunction.time_mock_concatenate_numpy</a></li>
+<li><a href='#numpy_bench_random.Permutation.time_permutation_1d'>numpy_bench_random.Permutation.time_permutation_1d</a></li>
+<li><a href='#numpy_bench_random.Permutation.time_permutation_2d'>numpy_bench_random.Permutation.time_permutation_2d</a></li>
+<li><a href='#numpy_bench_random.Permutation.time_permutation_int'>numpy_bench_random.Permutation.time_permutation_int</a></li>
+<li><a href='#numpy_bench_random.Randint.time_randint_fast'>numpy_bench_random.Randint.time_randint_fast</a></li>
+<li><a href='#numpy_bench_random.Randint.time_randint_slow'>numpy_bench_random.Randint.time_randint_slow</a></li>
+<li><a href='#numpy_bench_random.Randint_dtype.time_randint_fast'>numpy_bench_random.Randint_dtype.time_randint_fast</a></li>
+<li><a href='#numpy_bench_random.Randint_dtype.time_randint_slow'>numpy_bench_random.Randint_dtype.time_randint_slow</a></li>
+<li><a href='#numpy_bench_random.Random.time_rng'>numpy_bench_random.Random.time_rng</a></li>
+<li><a href='#numpy_bench_random.Shuffle.time_100000'>numpy_bench_random.Shuffle.time_100000</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromarrays_formats_as_list'>numpy_bench_records.Records.time_fromarrays_formats_as_list</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromarrays_formats_as_string'>numpy_bench_records.Records.time_fromarrays_formats_as_string</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromarrays_w_dtype'>numpy_bench_records.Records.time_fromarrays_w_dtype</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromarrays_wo_dtype'>numpy_bench_records.Records.time_fromarrays_wo_dtype</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromstring_formats_as_list'>numpy_bench_records.Records.time_fromstring_formats_as_list</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromstring_formats_as_string'>numpy_bench_records.Records.time_fromstring_formats_as_string</a></li>
+<li><a href='#numpy_bench_records.Records.time_fromstring_w_dtype'>numpy_bench_records.Records.time_fromstring_w_dtype</a></li>
+<li><a href='#numpy_bench_reduce.AddReduce.time_axis_0'>numpy_bench_reduce.AddReduce.time_axis_0</a></li>
+<li><a href='#numpy_bench_reduce.AddReduce.time_axis_1'>numpy_bench_reduce.AddReduce.time_axis_1</a></li>
+<li><a href='#numpy_bench_reduce.AddReduceSeparate.time_reduce'>numpy_bench_reduce.AddReduceSeparate.time_reduce</a></li>
+<li><a href='#numpy_bench_reduce.AnyAll.time_all_fast'>numpy_bench_reduce.AnyAll.time_all_fast</a></li>
+<li><a href='#numpy_bench_reduce.AnyAll.time_all_slow'>numpy_bench_reduce.AnyAll.time_all_slow</a></li>
+<li><a href='#numpy_bench_reduce.AnyAll.time_any_fast'>numpy_bench_reduce.AnyAll.time_any_fast</a></li>
+<li><a href='#numpy_bench_reduce.AnyAll.time_any_slow'>numpy_bench_reduce.AnyAll.time_any_slow</a></li>
+<li><a href='#numpy_bench_reduce.MinMax.time_max'>numpy_bench_reduce.MinMax.time_max</a></li>
+<li><a href='#numpy_bench_reduce.MinMax.time_min'>numpy_bench_reduce.MinMax.time_min</a></li>
+<li><a href='#numpy_bench_reduce.SmallReduction.time_small'>numpy_bench_reduce.SmallReduction.time_small</a></li>
+<li><a href='#numpy_bench_shape_base.Block.time_3d'>numpy_bench_shape_base.Block.time_3d</a></li>
+<li><a href='#numpy_bench_shape_base.Block.time_block_complicated'>numpy_bench_shape_base.Block.time_block_complicated</a></li>
+<li><a href='#numpy_bench_shape_base.Block.time_block_simple_column_wise'>numpy_bench_shape_base.Block.time_block_simple_column_wise</a></li>
+<li><a href='#numpy_bench_shape_base.Block.time_block_simple_row_wise'>numpy_bench_shape_base.Block.time_block_simple_row_wise</a></li>
+<li><a href='#numpy_bench_shape_base.Block.time_nested'>numpy_bench_shape_base.Block.time_nested</a></li>
+<li><a href='#numpy_bench_shape_base.Block.time_no_lists'>numpy_bench_shape_base.Block.time_no_lists</a></li>
+<li><a href='#numpy_bench_shape_base.Block2D.time_block2d'>numpy_bench_shape_base.Block2D.time_block2d</a></li>
+<li><a href='#numpy_bench_ufunc.ArgParsing.time_add_arg_parsing'>numpy_bench_ufunc.ArgParsing.time_add_arg_parsing</a></li>
+<li><a href='#numpy_bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing'>numpy_bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing</a></li>
+<li><a href='#numpy_bench_ufunc.Broadcast.time_broadcast'>numpy_bench_ufunc.Broadcast.time_broadcast</a></li>
+<li><a href='#numpy_bench_ufunc.Custom.time_and_bool'>numpy_bench_ufunc.Custom.time_and_bool</a></li>
+<li><a href='#numpy_bench_ufunc.Custom.time_count_nonzero'>numpy_bench_ufunc.Custom.time_count_nonzero</a></li>
+<li><a href='#numpy_bench_ufunc.Custom.time_nonzero'>numpy_bench_ufunc.Custom.time_nonzero</a></li>
+<li><a href='#numpy_bench_ufunc.Custom.time_not_bool'>numpy_bench_ufunc.Custom.time_not_bool</a></li>
+<li><a href='#numpy_bench_ufunc.Custom.time_or_bool'>numpy_bench_ufunc.Custom.time_or_bool</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_char_or'>numpy_bench_ufunc.CustomInplace.time_char_or</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_char_or_temp'>numpy_bench_ufunc.CustomInplace.time_char_or_temp</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_double_add'>numpy_bench_ufunc.CustomInplace.time_double_add</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_double_add_temp'>numpy_bench_ufunc.CustomInplace.time_double_add_temp</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_float_add'>numpy_bench_ufunc.CustomInplace.time_float_add</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_float_add_temp'>numpy_bench_ufunc.CustomInplace.time_float_add_temp</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_int_or'>numpy_bench_ufunc.CustomInplace.time_int_or</a></li>
+<li><a href='#numpy_bench_ufunc.CustomInplace.time_int_or_temp'>numpy_bench_ufunc.CustomInplace.time_int_or_temp</a></li>
+<li><a href='#numpy_bench_ufunc.CustomScalar.time_add_scalar2'>numpy_bench_ufunc.CustomScalar.time_add_scalar2</a></li>
+<li><a href='#numpy_bench_ufunc.CustomScalar.time_divide_scalar2'>numpy_bench_ufunc.CustomScalar.time_divide_scalar2</a></li>
+<li><a href='#numpy_bench_ufunc.CustomScalar.time_divide_scalar2_inplace'>numpy_bench_ufunc.CustomScalar.time_divide_scalar2_inplace</a></li>
+<li><a href='#numpy_bench_ufunc.CustomScalar.time_less_than_scalar2'>numpy_bench_ufunc.CustomScalar.time_less_than_scalar2</a></li>
+<li><a href='#numpy_bench_ufunc.Scalar.time_add_scalar'>numpy_bench_ufunc.Scalar.time_add_scalar</a></li>
+<li><a href='#numpy_bench_ufunc.Scalar.time_add_scalar_conv'>numpy_bench_ufunc.Scalar.time_add_scalar_conv</a></li>
+<li><a href='#numpy_bench_ufunc.Scalar.time_add_scalar_conv_complex'>numpy_bench_ufunc.Scalar.time_add_scalar_conv_complex</a></li>
+<li><a href='#numpy_bench_ufunc.UFunc.time_ufunc_types'>numpy_bench_ufunc.UFunc.time_ufunc_types</a></li>
+</ul>
+<table>
+<tr><td><a id='numpy_bench_app.LaplaceInplace.time_it'></a><img src='numpy/numpy_bench_app.LaplaceInplace.time_it.svg'></td><td><a id='numpy_bench_app.MaxesOfDots.time_it'></a><img src='numpy/numpy_bench_app.MaxesOfDots.time_it.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_arange_100'></a><img src='numpy/numpy_bench_core.Core.time_arange_100.svg'></td><td><a id='numpy_bench_core.Core.time_array_1'></a><img src='numpy/numpy_bench_core.Core.time_array_1.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_array_empty'></a><img src='numpy/numpy_bench_core.Core.time_array_empty.svg'></td><td><a id='numpy_bench_core.Core.time_array_l'></a><img src='numpy/numpy_bench_core.Core.time_array_l.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_array_l1'></a><img src='numpy/numpy_bench_core.Core.time_array_l1.svg'></td><td><a id='numpy_bench_core.Core.time_array_l100'></a><img src='numpy/numpy_bench_core.Core.time_array_l100.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_diag_l100'></a><img src='numpy/numpy_bench_core.Core.time_diag_l100.svg'></td><td><a id='numpy_bench_core.Core.time_diagflat_l100'></a><img src='numpy/numpy_bench_core.Core.time_diagflat_l100.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_diagflat_l50_l50'></a><img src='numpy/numpy_bench_core.Core.time_diagflat_l50_l50.svg'></td><td><a id='numpy_bench_core.Core.time_dstack_l'></a><img src='numpy/numpy_bench_core.Core.time_dstack_l.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_empty_100'></a><img src='numpy/numpy_bench_core.Core.time_empty_100.svg'></td><td><a id='numpy_bench_core.Core.time_eye_100'></a><img src='numpy/numpy_bench_core.Core.time_eye_100.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_eye_3000'></a><img src='numpy/numpy_bench_core.Core.time_eye_3000.svg'></td><td><a id='numpy_bench_core.Core.time_hstack_l'></a><img src='numpy/numpy_bench_core.Core.time_hstack_l.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_identity_100'></a><img src='numpy/numpy_bench_core.Core.time_identity_100.svg'></td><td><a id='numpy_bench_core.Core.time_identity_3000'></a><img src='numpy/numpy_bench_core.Core.time_identity_3000.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_ones_100'></a><img src='numpy/numpy_bench_core.Core.time_ones_100.svg'></td><td><a id='numpy_bench_core.Core.time_tril_l10x10'></a><img src='numpy/numpy_bench_core.Core.time_tril_l10x10.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_triu_l10x10'></a><img src='numpy/numpy_bench_core.Core.time_triu_l10x10.svg'></td><td><a id='numpy_bench_core.Core.time_vstack_l'></a><img src='numpy/numpy_bench_core.Core.time_vstack_l.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Core.time_zeros_100'></a><img src='numpy/numpy_bench_core.Core.time_zeros_100.svg'></td><td><a id='numpy_bench_core.CorrConv.time_convolve'></a><img src='numpy/numpy_bench_core.CorrConv.time_convolve.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.CorrConv.time_correlate'></a><img src='numpy/numpy_bench_core.CorrConv.time_correlate.svg'></td><td><a id='numpy_bench_core.CountNonzero.time_count_nonzero'></a><img src='numpy/numpy_bench_core.CountNonzero.time_count_nonzero.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.CountNonzero.time_count_nonzero_axis'></a><img src='numpy/numpy_bench_core.CountNonzero.time_count_nonzero_axis.svg'></td><td><a id='numpy_bench_core.CountNonzero.time_count_nonzero_multi_axis'></a><img src='numpy/numpy_bench_core.CountNonzero.time_count_nonzero_multi_axis.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Indices.time_indices'></a><img src='numpy/numpy_bench_core.Indices.time_indices.svg'></td><td><a id='numpy_bench_core.MA.time_masked_array'></a><img src='numpy/numpy_bench_core.MA.time_masked_array.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.MA.time_masked_array_l100'></a><img src='numpy/numpy_bench_core.MA.time_masked_array_l100.svg'></td><td><a id='numpy_bench_core.MA.time_masked_array_l100_t100'></a><img src='numpy/numpy_bench_core.MA.time_masked_array_l100_t100.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.PackBits.time_packbits'></a><img src='numpy/numpy_bench_core.PackBits.time_packbits.svg'></td><td><a id='numpy_bench_core.PackBits.time_packbits_axis0'></a><img src='numpy/numpy_bench_core.PackBits.time_packbits_axis0.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.PackBits.time_packbits_axis1'></a><img src='numpy/numpy_bench_core.PackBits.time_packbits_axis1.svg'></td><td><a id='numpy_bench_core.Temporaries.time_large'></a><img src='numpy/numpy_bench_core.Temporaries.time_large.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Temporaries.time_large2'></a><img src='numpy/numpy_bench_core.Temporaries.time_large2.svg'></td><td><a id='numpy_bench_core.Temporaries.time_mid'></a><img src='numpy/numpy_bench_core.Temporaries.time_mid.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.Temporaries.time_mid2'></a><img src='numpy/numpy_bench_core.Temporaries.time_mid2.svg'></td><td><a id='numpy_bench_core.UnpackBits.time_unpackbits'></a><img src='numpy/numpy_bench_core.UnpackBits.time_unpackbits.svg'></td></tr>
+<tr><td><a id='numpy_bench_core.UnpackBits.time_unpackbits_axis0'></a><img src='numpy/numpy_bench_core.UnpackBits.time_unpackbits_axis0.svg'></td><td><a id='numpy_bench_core.UnpackBits.time_unpackbits_axis1'></a><img src='numpy/numpy_bench_core.UnpackBits.time_unpackbits_axis1.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Bincount.time_bincount'></a><img src='numpy/numpy_bench_function_base.Bincount.time_bincount.svg'></td><td><a id='numpy_bench_function_base.Bincount.time_weights'></a><img src='numpy/numpy_bench_function_base.Bincount.time_weights.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Histogram1D.time_fine_binning'></a><img src='numpy/numpy_bench_function_base.Histogram1D.time_fine_binning.svg'></td><td><a id='numpy_bench_function_base.Histogram1D.time_full_coverage'></a><img src='numpy/numpy_bench_function_base.Histogram1D.time_full_coverage.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Histogram1D.time_small_coverage'></a><img src='numpy/numpy_bench_function_base.Histogram1D.time_small_coverage.svg'></td><td><a id='numpy_bench_function_base.Histogram2D.time_fine_binning'></a><img src='numpy/numpy_bench_function_base.Histogram2D.time_fine_binning.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Histogram2D.time_full_coverage'></a><img src='numpy/numpy_bench_function_base.Histogram2D.time_full_coverage.svg'></td><td><a id='numpy_bench_function_base.Histogram2D.time_small_coverage'></a><img src='numpy/numpy_bench_function_base.Histogram2D.time_small_coverage.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Median.time_even'></a><img src='numpy/numpy_bench_function_base.Median.time_even.svg'></td><td><a id='numpy_bench_function_base.Median.time_even_inplace'></a><img src='numpy/numpy_bench_function_base.Median.time_even_inplace.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Median.time_even_small'></a><img src='numpy/numpy_bench_function_base.Median.time_even_small.svg'></td><td><a id='numpy_bench_function_base.Median.time_odd'></a><img src='numpy/numpy_bench_function_base.Median.time_odd.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Median.time_odd_inplace'></a><img src='numpy/numpy_bench_function_base.Median.time_odd_inplace.svg'></td><td><a id='numpy_bench_function_base.Median.time_odd_small'></a><img src='numpy/numpy_bench_function_base.Median.time_odd_small.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Percentile.time_percentile'></a><img src='numpy/numpy_bench_function_base.Percentile.time_percentile.svg'></td><td><a id='numpy_bench_function_base.Percentile.time_quartile'></a><img src='numpy/numpy_bench_function_base.Percentile.time_quartile.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Select.time_select'></a><img src='numpy/numpy_bench_function_base.Select.time_select.svg'></td><td><a id='numpy_bench_function_base.Select.time_select_larger'></a><img src='numpy/numpy_bench_function_base.Select.time_select_larger.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Sort.time_argsort'></a><img src='numpy/numpy_bench_function_base.Sort.time_argsort.svg'></td><td><a id='numpy_bench_function_base.Sort.time_argsort_random'></a><img src='numpy/numpy_bench_function_base.Sort.time_argsort_random.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Sort.time_sort'></a><img src='numpy/numpy_bench_function_base.Sort.time_sort.svg'></td><td><a id='numpy_bench_function_base.Sort.time_sort_equal'></a><img src='numpy/numpy_bench_function_base.Sort.time_sort_equal.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Sort.time_sort_inplace'></a><img src='numpy/numpy_bench_function_base.Sort.time_sort_inplace.svg'></td><td><a id='numpy_bench_function_base.Sort.time_sort_many_equal'></a><img src='numpy/numpy_bench_function_base.Sort.time_sort_many_equal.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Sort.time_sort_random'></a><img src='numpy/numpy_bench_function_base.Sort.time_sort_random.svg'></td><td><a id='numpy_bench_function_base.Sort.time_sort_worst'></a><img src='numpy/numpy_bench_function_base.Sort.time_sort_worst.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Where.time_1'></a><img src='numpy/numpy_bench_function_base.Where.time_1.svg'></td><td><a id='numpy_bench_function_base.Where.time_2'></a><img src='numpy/numpy_bench_function_base.Where.time_2.svg'></td></tr>
+<tr><td><a id='numpy_bench_function_base.Where.time_2_broadcast'></a><img src='numpy/numpy_bench_function_base.Where.time_2_broadcast.svg'></td><td><a id='numpy_bench_indexing.Indexing.time_op'></a><img src='numpy/numpy_bench_indexing.Indexing.time_op.svg'></td></tr>
+<tr><td><a id='numpy_bench_indexing.IndexingSeparate.time_mmap_fancy_indexing'></a><img src='numpy/numpy_bench_indexing.IndexingSeparate.time_mmap_fancy_indexing.svg'></td><td><a id='numpy_bench_indexing.IndexingSeparate.time_mmap_slicing'></a><img src='numpy/numpy_bench_indexing.IndexingSeparate.time_mmap_slicing.svg'></td></tr>
+<tr><td><a id='numpy_bench_indexing.IndexingStructured0D.time_array_all'></a><img src='numpy/numpy_bench_indexing.IndexingStructured0D.time_array_all.svg'></td><td><a id='numpy_bench_indexing.IndexingStructured0D.time_array_slice'></a><img src='numpy/numpy_bench_indexing.IndexingStructured0D.time_array_slice.svg'></td></tr>
+<tr><td><a id='numpy_bench_indexing.IndexingStructured0D.time_scalar_all'></a><img src='numpy/numpy_bench_indexing.IndexingStructured0D.time_scalar_all.svg'></td><td><a id='numpy_bench_indexing.IndexingStructured0D.time_scalar_slice'></a><img src='numpy/numpy_bench_indexing.IndexingStructured0D.time_scalar_slice.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.Copy.time_cont_assign'></a><img src='numpy/numpy_bench_io.Copy.time_cont_assign.svg'></td><td><a id='numpy_bench_io.Copy.time_memcpy'></a><img src='numpy/numpy_bench_io.Copy.time_memcpy.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.Copy.time_memcpy_large_out_of_place'></a><img src='numpy/numpy_bench_io.Copy.time_memcpy_large_out_of_place.svg'></td><td><a id='numpy_bench_io.Copy.time_strided_assign'></a><img src='numpy/numpy_bench_io.Copy.time_strided_assign.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.Copy.time_strided_copy'></a><img src='numpy/numpy_bench_io.Copy.time_strided_copy.svg'></td><td><a id='numpy_bench_io.CopyTo.time_copyto'></a><img src='numpy/numpy_bench_io.CopyTo.time_copyto.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.CopyTo.time_copyto_8_dense'></a><img src='numpy/numpy_bench_io.CopyTo.time_copyto_8_dense.svg'></td><td><a id='numpy_bench_io.CopyTo.time_copyto_8_sparse'></a><img src='numpy/numpy_bench_io.CopyTo.time_copyto_8_sparse.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.CopyTo.time_copyto_dense'></a><img src='numpy/numpy_bench_io.CopyTo.time_copyto_dense.svg'></td><td><a id='numpy_bench_io.CopyTo.time_copyto_sparse'></a><img src='numpy/numpy_bench_io.CopyTo.time_copyto_sparse.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv'></a><img src='numpy/numpy_bench_io.LoadtxtCSVComments.time_comment_loadtxt_csv.svg'></td><td><a id='numpy_bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime'></a><img src='numpy/numpy_bench_io.LoadtxtCSVDateTime.time_loadtxt_csv_datetime.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.LoadtxtCSVSkipRows.time_skiprows_csv'></a><img src='numpy/numpy_bench_io.LoadtxtCSVSkipRows.time_skiprows_csv.svg'></td><td><a id='numpy_bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype'></a><img src='numpy/numpy_bench_io.LoadtxtCSVStructured.time_loadtxt_csv_struct_dtype.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv'></a><img src='numpy/numpy_bench_io.LoadtxtCSVdtypes.time_loadtxt_dtypes_csv.svg'></td><td><a id='numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64'></a><img src='numpy/numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values'></a><img src='numpy/numpy_bench_io.LoadtxtReadUint64Integers.time_read_uint64_neg_values.svg'></td><td><a id='numpy_bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv'></a><img src='numpy/numpy_bench_io.LoadtxtUseColsCSV.time_loadtxt_usecols_csv.svg'></td></tr>
+<tr><td><a id='numpy_bench_io.Savez.time_vb_savez_squares'></a><img src='numpy/numpy_bench_io.Savez.time_vb_savez_squares.svg'></td><td><a id='numpy_bench_lib.Nan.time_nanargmax'></a><img src='numpy/numpy_bench_lib.Nan.time_nanargmax.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nanargmin'></a><img src='numpy/numpy_bench_lib.Nan.time_nanargmin.svg'></td><td><a id='numpy_bench_lib.Nan.time_nancumprod'></a><img src='numpy/numpy_bench_lib.Nan.time_nancumprod.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nancumsum'></a><img src='numpy/numpy_bench_lib.Nan.time_nancumsum.svg'></td><td><a id='numpy_bench_lib.Nan.time_nanmax'></a><img src='numpy/numpy_bench_lib.Nan.time_nanmax.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nanmean'></a><img src='numpy/numpy_bench_lib.Nan.time_nanmean.svg'></td><td><a id='numpy_bench_lib.Nan.time_nanmedian'></a><img src='numpy/numpy_bench_lib.Nan.time_nanmedian.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nanmin'></a><img src='numpy/numpy_bench_lib.Nan.time_nanmin.svg'></td><td><a id='numpy_bench_lib.Nan.time_nanpercentile'></a><img src='numpy/numpy_bench_lib.Nan.time_nanpercentile.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nanprod'></a><img src='numpy/numpy_bench_lib.Nan.time_nanprod.svg'></td><td><a id='numpy_bench_lib.Nan.time_nanquantile'></a><img src='numpy/numpy_bench_lib.Nan.time_nanquantile.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nanstd'></a><img src='numpy/numpy_bench_lib.Nan.time_nanstd.svg'></td><td><a id='numpy_bench_lib.Nan.time_nansum'></a><img src='numpy/numpy_bench_lib.Nan.time_nansum.svg'></td></tr>
+<tr><td><a id='numpy_bench_lib.Nan.time_nanvar'></a><img src='numpy/numpy_bench_lib.Nan.time_nanvar.svg'></td><td><a id='numpy_bench_lib.Pad.time_pad'></a><img src='numpy/numpy_bench_lib.Pad.time_pad.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_dot_a_b'></a><img src='numpy/numpy_bench_linalg.Eindot.time_dot_a_b.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_dot_d_dot_b_c'></a><img src='numpy/numpy_bench_linalg.Eindot.time_dot_d_dot_b_c.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_dot_trans_a_at'></a><img src='numpy/numpy_bench_linalg.Eindot.time_dot_trans_a_at.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_dot_trans_a_atc'></a><img src='numpy/numpy_bench_linalg.Eindot.time_dot_trans_a_atc.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_dot_trans_at_a'></a><img src='numpy/numpy_bench_linalg.Eindot.time_dot_trans_at_a.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_dot_trans_atc_a'></a><img src='numpy/numpy_bench_linalg.Eindot.time_dot_trans_atc_a.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_einsum_i_ij_j'></a><img src='numpy/numpy_bench_linalg.Eindot.time_einsum_i_ij_j.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_einsum_ij_jk_a_b'></a><img src='numpy/numpy_bench_linalg.Eindot.time_einsum_ij_jk_a_b.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_einsum_ijk_jil_kl'></a><img src='numpy/numpy_bench_linalg.Eindot.time_einsum_ijk_jil_kl.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_inner_trans_a_a'></a><img src='numpy/numpy_bench_linalg.Eindot.time_inner_trans_a_a.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_inner_trans_a_ac'></a><img src='numpy/numpy_bench_linalg.Eindot.time_inner_trans_a_ac.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_matmul_a_b'></a><img src='numpy/numpy_bench_linalg.Eindot.time_matmul_a_b.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_matmul_d_matmul_b_c'></a><img src='numpy/numpy_bench_linalg.Eindot.time_matmul_d_matmul_b_c.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_matmul_trans_a_at'></a><img src='numpy/numpy_bench_linalg.Eindot.time_matmul_trans_a_at.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_matmul_trans_a_atc'></a><img src='numpy/numpy_bench_linalg.Eindot.time_matmul_trans_a_atc.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_matmul_trans_at_a'></a><img src='numpy/numpy_bench_linalg.Eindot.time_matmul_trans_at_a.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Eindot.time_matmul_trans_atc_a'></a><img src='numpy/numpy_bench_linalg.Eindot.time_matmul_trans_atc_a.svg'></td><td><a id='numpy_bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1'></a><img src='numpy/numpy_bench_linalg.Eindot.time_tensordot_a_b_axes_1_0_0_1.svg'></td></tr>
+<tr><td><a id='numpy_bench_linalg.Linalg.time_op'></a><img src='numpy/numpy_bench_linalg.Linalg.time_op.svg'></td><td><a id='numpy_bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64'></a><img src='numpy/numpy_bench_linalg.Lstsq.time_numpy_linalg_lstsq_a__b_float64.svg'></td></tr>
+<tr><td><a id='numpy_bench_ma.Concatenate.time_it'></a><img src='numpy/numpy_bench_ma.Concatenate.time_it.svg'></td><td><a id='numpy_bench_ma.Indexing.time_0d'></a><img src='numpy/numpy_bench_ma.Indexing.time_0d.svg'></td></tr>
+<tr><td><a id='numpy_bench_ma.Indexing.time_1d'></a><img src='numpy/numpy_bench_ma.Indexing.time_1d.svg'></td><td><a id='numpy_bench_ma.Indexing.time_scalar'></a><img src='numpy/numpy_bench_ma.Indexing.time_scalar.svg'></td></tr>
+<tr><td><a id='numpy_bench_ma.MA.time_masked_array'></a><img src='numpy/numpy_bench_ma.MA.time_masked_array.svg'></td><td><a id='numpy_bench_ma.MA.time_masked_array_l100'></a><img src='numpy/numpy_bench_ma.MA.time_masked_array_l100.svg'></td></tr>
+<tr><td><a id='numpy_bench_ma.MA.time_masked_array_l100_t100'></a><img src='numpy/numpy_bench_ma.MA.time_masked_array_l100_t100.svg'></td><td><a id='numpy_bench_ma.UFunc.time_1d'></a><img src='numpy/numpy_bench_ma.UFunc.time_1d.svg'></td></tr>
+<tr><td><a id='numpy_bench_ma.UFunc.time_2d'></a><img src='numpy/numpy_bench_ma.UFunc.time_2d.svg'></td><td><a id='numpy_bench_ma.UFunc.time_scalar'></a><img src='numpy/numpy_bench_ma.UFunc.time_scalar.svg'></td></tr>
+<tr><td><a id='numpy_bench_ma.UFunc.time_scalar_1d'></a><img src='numpy/numpy_bench_ma.UFunc.time_scalar_1d.svg'></td><td><a id='numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_duck'></a><img src='numpy/numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_duck.svg'></td></tr>
+<tr><td><a id='numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy'></a><img src='numpy/numpy_bench_overrides.ArrayFunction.time_mock_broadcast_to_numpy.svg'></td><td><a id='numpy_bench_overrides.ArrayFunction.time_mock_concatenate_duck'></a><img src='numpy/numpy_bench_overrides.ArrayFunction.time_mock_concatenate_duck.svg'></td></tr>
+<tr><td><a id='numpy_bench_overrides.ArrayFunction.time_mock_concatenate_many'></a><img src='numpy/numpy_bench_overrides.ArrayFunction.time_mock_concatenate_many.svg'></td><td><a id='numpy_bench_overrides.ArrayFunction.time_mock_concatenate_mixed'></a><img src='numpy/numpy_bench_overrides.ArrayFunction.time_mock_concatenate_mixed.svg'></td></tr>
+<tr><td><a id='numpy_bench_overrides.ArrayFunction.time_mock_concatenate_numpy'></a><img src='numpy/numpy_bench_overrides.ArrayFunction.time_mock_concatenate_numpy.svg'></td><td><a id='numpy_bench_random.Permutation.time_permutation_1d'></a><img src='numpy/numpy_bench_random.Permutation.time_permutation_1d.svg'></td></tr>
+<tr><td><a id='numpy_bench_random.Permutation.time_permutation_2d'></a><img src='numpy/numpy_bench_random.Permutation.time_permutation_2d.svg'></td><td><a id='numpy_bench_random.Permutation.time_permutation_int'></a><img src='numpy/numpy_bench_random.Permutation.time_permutation_int.svg'></td></tr>
+<tr><td><a id='numpy_bench_random.Randint.time_randint_fast'></a><img src='numpy/numpy_bench_random.Randint.time_randint_fast.svg'></td><td><a id='numpy_bench_random.Randint.time_randint_slow'></a><img src='numpy/numpy_bench_random.Randint.time_randint_slow.svg'></td></tr>
+<tr><td><a id='numpy_bench_random.Randint_dtype.time_randint_fast'></a><img src='numpy/numpy_bench_random.Randint_dtype.time_randint_fast.svg'></td><td><a id='numpy_bench_random.Randint_dtype.time_randint_slow'></a><img src='numpy/numpy_bench_random.Randint_dtype.time_randint_slow.svg'></td></tr>
+<tr><td><a id='numpy_bench_random.Random.time_rng'></a><img src='numpy/numpy_bench_random.Random.time_rng.svg'></td><td><a id='numpy_bench_random.Shuffle.time_100000'></a><img src='numpy/numpy_bench_random.Shuffle.time_100000.svg'></td></tr>
+<tr><td><a id='numpy_bench_records.Records.time_fromarrays_formats_as_list'></a><img src='numpy/numpy_bench_records.Records.time_fromarrays_formats_as_list.svg'></td><td><a id='numpy_bench_records.Records.time_fromarrays_formats_as_string'></a><img src='numpy/numpy_bench_records.Records.time_fromarrays_formats_as_string.svg'></td></tr>
+<tr><td><a id='numpy_bench_records.Records.time_fromarrays_w_dtype'></a><img src='numpy/numpy_bench_records.Records.time_fromarrays_w_dtype.svg'></td><td><a id='numpy_bench_records.Records.time_fromarrays_wo_dtype'></a><img src='numpy/numpy_bench_records.Records.time_fromarrays_wo_dtype.svg'></td></tr>
+<tr><td><a id='numpy_bench_records.Records.time_fromstring_formats_as_list'></a><img src='numpy/numpy_bench_records.Records.time_fromstring_formats_as_list.svg'></td><td><a id='numpy_bench_records.Records.time_fromstring_formats_as_string'></a><img src='numpy/numpy_bench_records.Records.time_fromstring_formats_as_string.svg'></td></tr>
+<tr><td><a id='numpy_bench_records.Records.time_fromstring_w_dtype'></a><img src='numpy/numpy_bench_records.Records.time_fromstring_w_dtype.svg'></td><td><a id='numpy_bench_reduce.AddReduce.time_axis_0'></a><img src='numpy/numpy_bench_reduce.AddReduce.time_axis_0.svg'></td></tr>
+<tr><td><a id='numpy_bench_reduce.AddReduce.time_axis_1'></a><img src='numpy/numpy_bench_reduce.AddReduce.time_axis_1.svg'></td><td><a id='numpy_bench_reduce.AddReduceSeparate.time_reduce'></a><img src='numpy/numpy_bench_reduce.AddReduceSeparate.time_reduce.svg'></td></tr>
+<tr><td><a id='numpy_bench_reduce.AnyAll.time_all_fast'></a><img src='numpy/numpy_bench_reduce.AnyAll.time_all_fast.svg'></td><td><a id='numpy_bench_reduce.AnyAll.time_all_slow'></a><img src='numpy/numpy_bench_reduce.AnyAll.time_all_slow.svg'></td></tr>
+<tr><td><a id='numpy_bench_reduce.AnyAll.time_any_fast'></a><img src='numpy/numpy_bench_reduce.AnyAll.time_any_fast.svg'></td><td><a id='numpy_bench_reduce.AnyAll.time_any_slow'></a><img src='numpy/numpy_bench_reduce.AnyAll.time_any_slow.svg'></td></tr>
+<tr><td><a id='numpy_bench_reduce.MinMax.time_max'></a><img src='numpy/numpy_bench_reduce.MinMax.time_max.svg'></td><td><a id='numpy_bench_reduce.MinMax.time_min'></a><img src='numpy/numpy_bench_reduce.MinMax.time_min.svg'></td></tr>
+<tr><td><a id='numpy_bench_reduce.SmallReduction.time_small'></a><img src='numpy/numpy_bench_reduce.SmallReduction.time_small.svg'></td><td><a id='numpy_bench_shape_base.Block.time_3d'></a><img src='numpy/numpy_bench_shape_base.Block.time_3d.svg'></td></tr>
+<tr><td><a id='numpy_bench_shape_base.Block.time_block_complicated'></a><img src='numpy/numpy_bench_shape_base.Block.time_block_complicated.svg'></td><td><a id='numpy_bench_shape_base.Block.time_block_simple_column_wise'></a><img src='numpy/numpy_bench_shape_base.Block.time_block_simple_column_wise.svg'></td></tr>
+<tr><td><a id='numpy_bench_shape_base.Block.time_block_simple_row_wise'></a><img src='numpy/numpy_bench_shape_base.Block.time_block_simple_row_wise.svg'></td><td><a id='numpy_bench_shape_base.Block.time_nested'></a><img src='numpy/numpy_bench_shape_base.Block.time_nested.svg'></td></tr>
+<tr><td><a id='numpy_bench_shape_base.Block.time_no_lists'></a><img src='numpy/numpy_bench_shape_base.Block.time_no_lists.svg'></td><td><a id='numpy_bench_shape_base.Block2D.time_block2d'></a><img src='numpy/numpy_bench_shape_base.Block2D.time_block2d.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.ArgParsing.time_add_arg_parsing'></a><img src='numpy/numpy_bench_ufunc.ArgParsing.time_add_arg_parsing.svg'></td><td><a id='numpy_bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing'></a><img src='numpy/numpy_bench_ufunc.ArgParsingReduce.time_add_reduce_arg_parsing.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.Broadcast.time_broadcast'></a><img src='numpy/numpy_bench_ufunc.Broadcast.time_broadcast.svg'></td><td><a id='numpy_bench_ufunc.Custom.time_and_bool'></a><img src='numpy/numpy_bench_ufunc.Custom.time_and_bool.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.Custom.time_count_nonzero'></a><img src='numpy/numpy_bench_ufunc.Custom.time_count_nonzero.svg'></td><td><a id='numpy_bench_ufunc.Custom.time_nonzero'></a><img src='numpy/numpy_bench_ufunc.Custom.time_nonzero.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.Custom.time_not_bool'></a><img src='numpy/numpy_bench_ufunc.Custom.time_not_bool.svg'></td><td><a id='numpy_bench_ufunc.Custom.time_or_bool'></a><img src='numpy/numpy_bench_ufunc.Custom.time_or_bool.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.CustomInplace.time_char_or'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_char_or.svg'></td><td><a id='numpy_bench_ufunc.CustomInplace.time_char_or_temp'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_char_or_temp.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.CustomInplace.time_double_add'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_double_add.svg'></td><td><a id='numpy_bench_ufunc.CustomInplace.time_double_add_temp'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_double_add_temp.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.CustomInplace.time_float_add'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_float_add.svg'></td><td><a id='numpy_bench_ufunc.CustomInplace.time_float_add_temp'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_float_add_temp.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.CustomInplace.time_int_or'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_int_or.svg'></td><td><a id='numpy_bench_ufunc.CustomInplace.time_int_or_temp'></a><img src='numpy/numpy_bench_ufunc.CustomInplace.time_int_or_temp.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.CustomScalar.time_add_scalar2'></a><img src='numpy/numpy_bench_ufunc.CustomScalar.time_add_scalar2.svg'></td><td><a id='numpy_bench_ufunc.CustomScalar.time_divide_scalar2'></a><img src='numpy/numpy_bench_ufunc.CustomScalar.time_divide_scalar2.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.CustomScalar.time_divide_scalar2_inplace'></a><img src='numpy/numpy_bench_ufunc.CustomScalar.time_divide_scalar2_inplace.svg'></td><td><a id='numpy_bench_ufunc.CustomScalar.time_less_than_scalar2'></a><img src='numpy/numpy_bench_ufunc.CustomScalar.time_less_than_scalar2.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.Scalar.time_add_scalar'></a><img src='numpy/numpy_bench_ufunc.Scalar.time_add_scalar.svg'></td><td><a id='numpy_bench_ufunc.Scalar.time_add_scalar_conv'></a><img src='numpy/numpy_bench_ufunc.Scalar.time_add_scalar_conv.svg'></td></tr>
+<tr><td><a id='numpy_bench_ufunc.Scalar.time_add_scalar_conv_complex'></a><img src='numpy/numpy_bench_ufunc.Scalar.time_add_scalar_conv_complex.svg'></td><td><a id='numpy_bench_ufunc.UFunc.time_ufunc_types'></a><img src='numpy/numpy_bench_ufunc.UFunc.time_ufunc_types.svg'></td></tr>
+</table>
+</body></html>
